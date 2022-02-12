@@ -1,12 +1,12 @@
 {
     "configs": [
         {
-            "experiment_script" : "EDIT: Path to batch experiment python script to run.",
+            "experiment_script" : "sumie/batch_experiments/sequence_labeling_with_lm_loss_batch_experiment.py"",
             "config" : {
                 "experiment_name" : "sequence_labeling", 
                 "run" : "roberta_NTI_LM_line_breaks_and_bullets_0",
                 "experiment_description" : "Extract tasks from writing regions using a sequence labeling approach with transformers.",
-                "experiment_dir" : "EDIT: Path where to store results from the experiment.",
+                "experiment_dir" : "./experiments/",
                 "use_temp_dir" : false, 
                 "temp_dir": "EDIT: Path if you want to use a temporary (potentially faster) directory to store experiment artifacts and results",
                 "copy_model_checkpoint": false,
