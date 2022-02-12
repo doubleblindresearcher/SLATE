@@ -1,12 +1,12 @@
 {
     "configs": [
         {
-            "experiment_script" : "EDIT: Path to batch experiment python script to run.",
+            "experiment_script" : "sumie/batch_experiments/sentence_segmentation_and_task_classification.py",
             "config" : {   
                 "experiment_name" : "baseline_approach", 
                 "run" : "baseline_0",
                 "experiment_description" : "Baseline approach for paper",
-                "experiment_dir" : "EDIT: Path where to store results from the experiment.",
+                "experiment_dir" : "./experiments/",
                 "use_temp_dir" : false, 
                 "temp_dir": "EDIT: Path if you want to use a temporary (potentially faster) directory to store experiment artifacts and results",
                 "copy_model_checkpoint": false, 
