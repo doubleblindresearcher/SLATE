@@ -3,6 +3,7 @@ Official repository for SLATE: A Sequence Labeling Approach for Task Extraction 
 
 # Code Organization
 ```
+├── docs                    <- Contains documentation such as the dataset Annotation Guide. 
 ├── configs                 <- Contains the configs used to run the paper experiments.
 ├── data                    <- Contains the train, test, and val datasets.
 ├── environment.yml         <- Environment file with all dependencies required to use the sumie package.
@@ -53,5 +54,7 @@ The line_list_item mask column is a list with the same length as wr_lines where 
 wh_id is the id of the whiteboard/ink document that the text is from. 
 wr_id is the id of the writing region in the document that the text belongs to. 
 
+For more details on how the dataset was annotated, please refer to the Annotation Guide in the docs folder. 
+
 # Note
-This repo and its resources are protected by a patent.
+This repo and its resources are protected by a patent and usage is permitted only for research purposes. 
