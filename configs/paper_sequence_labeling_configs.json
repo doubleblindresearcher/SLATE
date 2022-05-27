@@ -1,7 +1,7 @@
 {
     "configs": [
         {
-            "experiment_script" : "sumie/batch_experiments/sequence_labeling_with_lm_loss_batch_experiment.py"",
+            "experiment_script" : "sumie/batch_experiments/sequence_labeling_with_lm_loss_batch_experiment.py",
             "config" : {
                 "experiment_name" : "sequence_labeling", 
                 "run" : "roberta_NTI_LM_line_breaks_and_bullets_0",
